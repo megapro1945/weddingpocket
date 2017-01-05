@@ -1,0 +1,138 @@
+.img-fluid {
+	width: 100%;
+}
+
+.logo {
+	height: 60px;
+	margin-left: 70px;
+}
+
+.logo-text {
+	height: 50px;
+
+}
+
+.home-header {
+	position: relative;
+	min-height: 360px;
+	background: #aaa url('../img/header.jpg');
+	background-size: cover;
+}
+
+.navbar {
+	z-index: 999;
+}
+
+.jumbotron {
+	padding: 0;
+	background-color: transparent;
+}
+
+.jumbotron-text {
+	position: relative;
+	padding-top: 50px;
+	text-align: center;
+	color: white;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.form-budget {
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.budget-field {
+	width: 280px !important;
+}
+
+.why-wedding-pocket-header {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.advisor{
+	width: 65px;
+}
+
+.why-text{
+	font-family: "Aleo",'Georgia',serif;
+	color: #21201f;
+	font-weight: 500;
+}
+
+.patner-kami-header{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.footer-about-us {
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+
+.footer-about-us-text a {
+	color: #909090;
+	font-family: open sans,tahoma,sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer-about-us-text-cs {
+	color: #909090;
+	font-family: open sans,tahoma,sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer-logo{
+	float: left;
+}
+
+.footer-logo .logo{
+	margin-left: 0px;
+}
+
+.footer-copyright{
+	margin-top: 13px;
+}
+
+li {
+	list-style: outside none none;
+}
+
+.bg-header-footer{
+	background:#f5f5f5;
+	border-top: 1px solid #dbe0df;
+	border-bottom: 1px solid #dbe0df;
+}
+
+.bg-body{
+	background:#f5f5f5;
+	margin-bottom: 15px;
+}
+.bottom{
+	padding-top: 25px;
+}
+
+.sosial-media-icon{
+	margin-top: 15px;
+}
+
+.m-progress-bar {
+    min-height: 1em;
+    background: #c12d2d;
+    width: 5%;
+}
