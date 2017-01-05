@@ -41,7 +41,7 @@
 	        		<div class="form-group">
 	        			<input type="text" class="form-control budget-field" name="budget" placeholder="Masukkan Budget Anda">
 	        		</div>
-	        		<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#demo-modal-3">Mulai Sekarang</button>
+	        		<button type="submit" class="btn btn-primary" id="myBtn">Mulai Sekarang</button>
 	        	</form>
 	        </div>
 	    </div>
@@ -194,7 +194,7 @@
 	</div>
 
 	<!-- Modal -->
-	<form class="modal multi-step" id="demo-modal-3">
+	<!-- <form class="modal multi-step" id="demo-modal-3">
 	    <div class="modal-dialog">
 	        <div class="modal-content">
 	            <div class="modal-header">
@@ -235,7 +235,28 @@
 	            </div>
 	        </div>
 	    </div>
-	</form>
+	</form> -->
+
+	<!-- Modal -->
+	  <div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Modal Options</h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>Modal content..</p>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>
+	      
+	    </div>
+	  </div>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
@@ -243,12 +264,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     
     <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/js-lama/bootstrap.min.js"></script> -->
-    <script type="text/javascript" src="js/multi-step-modal.js"></script>
-    <script>
+    <script src="js/js-lama/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="js/multi-step-modal.js"></script> -->
+    <!-- <script>
 		sendEvent = function(sel, step) {
 		    $(sel).trigger('next.m.' + step);
 		}
+	</script> -->
+
+	<script type="text/javascript">
+		 $("#myBtn").click(function(){
+	        $("#myModal").modal({show: true});
+	    });
 	</script>
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
